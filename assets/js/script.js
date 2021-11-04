@@ -51,7 +51,7 @@ var saveTasks = function() {
 // modal was triggered
 $("#task-form-modal").on("show.bs.modal", function() {
   // clear values
-  $("#modalTaskDescription, #modalDueDate").val("");
+  $("#modalTaskDescription, #modalDueDate").value("");
 });
 
 // modal is fully visible
